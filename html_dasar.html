@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Judul Dokumen</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@200&display=swap');
+
+        body {
+            font-family: "Grandstander", sans-serif;
+            color: slateblue;
+            background-color: white;
+        }
+
+        nav a {
+            font-size: 18px;
+            font-weight: 400;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            font-weight: bold;
+        }
+
+        table {
+            text-align: center
+        }
+
+        footer {
+            padding: 20px;
+            color: white;
+            background-color: #00a2c6;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        div#content {
+            background-color: rgb(200, 200, 200);
+            padding: 20px 15px;
+        }
+
+        #content>header {
+            background-color: #4c5450;
+            padding: 15px;
+            color: white;
+        }
+
+        h2 {
+            background-color: #60d0a8;
+            padding: 15px;
+            color: white;
+        }
+
+        #content>p {
+            background-color: hsl(56, 62%, 85%);
+            padding: 20px;
+        }
+
+        p.textbox {
+            border-top-style: solid;
+            border-right-style: dotted;
+            border-bottom-style: groove;
+            border-left-style: double;
+            padding: 10px;
+
+            border-width: 4px;
+            border-color: red;
+            width: 200px;
+            height: 340px;
+        }
+
+        .featured-image {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .profile img {
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            width: 200px;
+
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .jumbotron {
+            font-size: 20px;
+            padding: 60px;
+            background-color: #00c8eb;
+            text-align: center;
+            color: white;
+        }
+
+        nav li {
+            display: inline;
+            list-style-type: none;
+            margin-right: 20px;
+        }
+
+        nav {
+            background-color: #00a2c6;
+            padding: 5px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            font-size: 18px;
+            font-weight: 400;
+            text-decoration: none;
+            color: white;
+            align-self: center;
+        }
+
+        #content {
+            float: left;
+            width: 75%;
+        }
+
+        aside {
+            float: right;
+            padding-left: 20px;
+            width: 25%;
+
+        }
+
+        main {
+            padding: 15px;
+            overflow: auto;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+
+        header {
+            display: inline;
+        }
+    </style>
+</head>
+<header>SELAMAT DATANG</header>
+<br>
+
+<h1>bagian awal</h1>
+
+<body>
+
+    <br>
+    <div class="jumbotron">
+        <h1>Bandung</h1>
+        <p>Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota provinsi tersebut.</p>
+    </div>
+    <nav class="nav a ">
+        <ul>
+            <li><a href="#sejarah">Sejarah</a></li>
+            <li><a href="#geografis">Geografis</a></li>
+            <li><a href="#wisata">Wisata</a></li>
+            <li><a href="#farm house lembang">Farm House Lembang</a></li>
+            <li><a href="#observatorium bosscha">Observatorium Bosscha</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="content">
+            <article class="card">
+                <h2 id="sejarah">Sejarah</h2>
+                <img src="assets/image/history.jpg" class="featured-image" alt="history">
+                <p>Kata Bandung berasal dari kata bendung atau bendungan karena terbendungnya sungai Citarum oleh lava
+                    Gunung
+                    Tangkuban Parahu yang lalu membentuk telaga. Legenda yang diceritakan oleh orang-orang tua di
+                    Bandung
+                    mengatakan
+                    bahwa nama Bandung diambil dari sebuah kendaraan air yang terdiri dari dua perahu yang diikat
+                    berdampingan
+                    yang
+                    disebut perahu bandung yang digunakan oleh Bupati Bandung, R.A. Wiranatakusumah II, untuk melayari
+                    Ci
+                    Tarum
+                    dalam mencari tempat kedudukan kabupaten yang baru untuk menggantikan ibu kota yang lama di
+                    Dayeuhkolot.
+                    Berdasarkan filosofi Sunda, kata Bandung juga berasal dari kalimat Nga-Bandung-an Banda Indung, yang
+                    merupakan
+                    kalimat sakral dan luhur karena mengandung nilai ajaran Sunda. Nga-Bandung-an artinya menyaksikan
+                    atau
+                    bersaksi.
+                    Banda adalah segala sesuatu yang berada di alam hidup yaitu di bumi dan atmosfer, baik makhluk hidup
+                    maupun
+                    benda mati. Sinonim dari banda adalah harta. Indung berarti Ibu atau Bumi, disebut juga sebagai Ibu
+                    Pertiwi
+                    tempat Banda berada.</p>
+            </article>
+            <article class="card">
+                <h2 id="geografis">Geografis</h2>
+                <img src="assets/image/geografis.jpg" class="featured-image" alt="geografis">
+                <p>Kota Bandung dikelilingi oleh pegunungan, sehingga bentuk morfologi wilayahnya bagaikan sebuah
+                    mangkok
+                    raksasa,
+                    secara geografis kota ini terletak di tengah-tengah provinsi Jawa Barat, serta berada pada
+                    ketinggian
+                    ±768 m
+                    di
+                    atas permukaan laut, dengan titik tertinggi di berada di sebelah utara dengan ketinggian 1.050 meter
+                    di
+                    atas
+                    permukaan laut dan sebelah selatan merupakan kawasan rendah dengan ketinggian 675 meter di atas
+                    permukaan
+                    laut.
+                    Kota Bandung dialiri dua sungai utama, yaitu Sungai Cikapundung dan Sungai Citarum beserta anak-anak
+                    sungainya
+                    yang pada umumnya mengalir ke arah selatan dan bertemu di Sungai Citarum. Dengan kondisi yang
+                    demikian,
+                    Bandung
+                    selatan sangat rentan terhadap masalah banjir terutama pada musim hujan.</p>
+            </article>
+            <article class="card">
+                <h2 id="wisata">Wisata</h2>
+                <p>Sejak dibukanya Jalan Tol Cipularang, kota Bandung telah menjadi tujuan utama dalam menikmati liburan
+                    akhir
+                    pekan
+                    terutama dari masyarakat yang berasal dari Jakarta sekitarnya. Selain menjadi kota wisata belanja,
+                    kota
+                    Bandung
+                    juga dikenal dengan sejumlah besar bangunan lama berarsitektur peninggalan Belanda.</p>
+            </article>
+            <article class="card">
+                <h2 id="farm house lembang">Farm House Lembang</h2>
+                <img src="assets/image/farm-house.jpg" class="featured-image" alt="farm house">
+                <p>Berada di jalur utama Bandung-Lembang, Farm House menjadi objek wisata yang tidak pernah sepi
+                    pengunjung.
+                    Selain
+                    karena letaknya strategis, kawasan ini juga menghadirkan nuansa wisata khas Eropa. Semua itu
+                    diterapkan
+                    dalam
+                    bentuk spot swafoto Instagramable.</p>
+            </article>
+            <article class="card">
+                <h2 id="observatorium bosscha">Observatorium Bosscha</h2>
+                <img src="assets/image/bosscha.jpg" class="featured-image" alt="bosscha">
+                <p>Memiliki beberapa teleskop, antara lain, Refraktor Ganda Zeiss, Schmidt Bimasakti, Refraktor Bamberg,
+                    Cassegrain
+                    GOTO, dan Teleskop Surya. Refraktor Ganda Zeiss adalah jenis teleskop terbesar untuk meneropong
+                    bintang.
+                    Benda
+                    ini diletakkan pada atap kubah sehingga saat teropong digunakan, atap tersebut harus dibuka.
+                    Observatorium
+                    Bosscha boleh dikunjungi oleh siapa pun, tanpa tiket. Namun, bagi yang ingin menggunakan teleskop
+                    Zeiss,
+                    wajib
+                    mendaftarkan diri. Untuk instansi atau lembaga pendidikan, diberikan jadwal hari
+                    Selasa sampai Jumat. Sementara itu, kunjungan individu dibuka setiap hari Sabtu.</p>
+            </article>
+        </div>
+        <br>
+        <aside class="card">
+            <article class="profile">
+                <header>
+                    <h2>Kota Bandung</h2>
+                    <p>Kota Kembang Paris van Java</p>
+                    <figure>
+                        <img src="assets/image/bandung-badge .jpg" align="center">
+                        <figcaption>Lambang</figcaption>
+                    </figure>
+                </header>
+            </article>
+            <h3>Informasi Lainnya</h3>
+            <table>
+                <tr>
+                    <th>Negara</th>
+                    <td>Indonesia</td>
+                </tr>
+                <tr>
+                    <th>Hari jadi</th>
+                    <td>25 September 1810</td>
+                </tr>
+                <tr>
+                    <th>Luas Total</th>
+                    <td>167.67 km<sup>2</sup></td>
+                </tr>
+                <tr>
+                    <th>Bahasa Daerah</th>
+                    <td>Sunda</td>
+                </tr>
+                <tr>
+                    <th>Kode Telepon</th>
+                    <td>+62 22</td>
+                </tr>
+            </table>
+        </aside>
+    </main>
+    <footer>
+        <p>Belajar Dasar Pemograman Web &copy; dicoding indonesia</p>
+    </footer>
+</body>
+
+</html>
